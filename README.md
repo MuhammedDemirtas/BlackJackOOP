@@ -4,7 +4,7 @@ This project simulates the classic Blackjack game where the player and the deale
 
 -----------------------------------------------------------
 
-#Classes and Functions
+# Classes and Functions
 
 Card Class (Card)
 Purpose: To create and define cards for the deck.
@@ -62,7 +62,11 @@ player_wins: Executes actions when the player wins.
 dealer_busts: Executes actions when the dealer busts.
 dealer_wins: Executes actions when the dealer wins.
 push: Executes actions when there's a tie.
-Game Flow
+
+----------------------------------------------
+
+# Game Flow
+
 Introduction: The player is greeted with a welcome message and the rules of the game are explained.
 Deck Creation: A new deck is created and shuffled.
 Hand Creation: Both the player and the dealer are dealt two cards each.
@@ -77,13 +81,17 @@ Replay: The player is asked if they want to play again.
 Running the Game
 To run the game, you need to have Python installed. Run the code to start the game. You can replay the game by pressing e or end the game by pressing h.
 
-Requirements
-Python 3.x
-How to Run?
-Ensure Python 3.x is installed.
-Paste the code into a Python file (e.g., blackjack.py).
-Run the file from the terminal or command line:
-Kodu kopyala
-python blackjack.py
-Follow the on-screen instructions to play the game.
-Enjoy the game!
+-----------------------------------------------------
+
+# Requirements
+
+*Python 3.x
+
+--------------------------------------
+
+# How to Run?
+*Ensure Python 3.x is installed.
+*Paste the code into a Python file (e.g., blackjack.py).
+*Run the file from the terminal or command line: python blackjack.py
+*Follow the on-screen instructions to play the game.
+*Enjoy the game!
