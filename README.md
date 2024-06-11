@@ -19,10 +19,10 @@ __str__: Provides a string representation of the cards.
 Deck Class (Deck)
 Purpose: To create a deck of 52 cards.
 
-Attributes:
+Attributes
 
 deck: List of cards.
-Methods:
+Methods
 
 __init__: Initializes a deck of 52 cards.
 __str__: Prints the entire deck.
@@ -36,14 +36,15 @@ Attributes:
 hand: List of cards.
 value: Total value of the hand.
 aces: Number of aces in the hand.
-Methods:
+
+Methods
 
 add_card: Adds a card to the hand and updates the value.
 adjust_for_ace: Adjusts the value of aces in the hand to prevent busting.
 Chips Class (Chips)
 Purpose: Manages the player's bets and total chips.
 
-Attributes:
+Attributes
 
 total: Total chips the player has.
 bet: The player's bet for the round.
@@ -68,30 +69,39 @@ push: Executes actions when there's a tie.
 # Game Flow
 
 Introduction: The player is greeted with a welcome message and the rules of the game are explained.
+
 Deck Creation: A new deck is created and shuffled.
+
 Hand Creation: Both the player and the dealer are dealt two cards each.
+
 Betting: The player is asked to place a bet.
+
 Show Initial Cards: Some cards are shown, with one of the dealer's cards hidden.
+
 Hit or Stand: The player decides whether to hit or stand.
-Game Result:
-If the player busts, the game ends.
-If the player does not bust, the dealer draws cards and the result is evaluated.
-Chips Update: The player's total chips are updated based on the game result.
-Replay: The player is asked if they want to play again.
-Running the Game
-To run the game, you need to have Python installed. Run the code to start the game. You can replay the game by pressing e or end the game by pressing h.
+
+---------------------------------------------------
+
+# Game Result
+
+* If the player busts, the game ends.
+* If the player does not bust, the dealer draws cards and the result is evaluated.
+* Chips Update: The player's total chips are updated based on the game result.
+* Replay: The player is asked if they want to play again.
+* Running the Game
+* To run the game, you need to have Python installed. Run the code to start the game. You can replay the game by pressing e or end the game by pressing h.
 
 -----------------------------------------------------
 
 # Requirements
 
-*Python 3.x
+* Python 3.x
 
 --------------------------------------
 
 # How to Run?
-*Ensure Python 3.x is installed.
-*Paste the code into a Python file (e.g., blackjack.py).
-*Run the file from the terminal or command line: python blackjack.py
-*Follow the on-screen instructions to play the game.
-*Enjoy the game!
+* Ensure Python 3.x is installed.
+* Paste the code into a Python file (e.g., blackjack.py).
+* Run the file from the terminal or command line: python blackjack.py
+* Follow the on-screen instructions to play the game.
+* Enjoy the game!
